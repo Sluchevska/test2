@@ -1,0 +1,27 @@
+.statistics {
+  /* border: 1px solid violet; */
+  align-items: center;
+}
+
+.stat_list {
+  display: flex;
+  /* width: 300px; */
+  height: 100px;
+  padding-inline-start: 0px;
+  margin: 10px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid violet;
+  box-shadow: 4px 5px 8px rgb(85, 42, 85);
+  width: 70px;
+  list-style: none;
+  align-items: center;
+}
+
+.title {
+  margin-left: 100px;
+}
